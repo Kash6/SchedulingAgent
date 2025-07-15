@@ -61,18 +61,13 @@ Innovation: The agent supports multi-user coordination and context memory, with 
 
 Setup
 
-Clone the repository: git clone <repo-url>
+Clone the repository: git clone https://github.com/Kash6/SchedulingAgent
 Install dependencies: pip install -r requirements.txt
-Set up Google Calendar API credentials in credentials.json.
-Configure environment variables in .env (e.g., OPENAI_API_KEY).
+Set up Google Calendar API credentials in credentials.json. Download it from https://console.cloud.google.com/auth/overview? in a new project and congigure oauth settings with new users.
+Configure environment variables in .env (e.g., OPENAI_API_KEY, GOOGLE_API).
 Run the server: uvicorn api_modified_new:fastapi_app --host 0.0.0.0 --port 8000
 Run frontend:  python -m http.server 3000
 Test queries via curl or a frontend (e.g., curl -X POST http://localhost:8000/query -d '{"query": "schedule a meeting on saturday at 2pm with odell"}').
-
-Evaluation Criteria
-
-Solution Proposal (40%): The agent personalizes scheduling by mapping nicknames, maintaining context, and resolving conflicts across users.
-Code & Demo Quality (60%): The backend is robust, with clear logging, error handling, and support for all required functionalities. The demo showcases real-world usability.
 
 Future Enhancements
 
