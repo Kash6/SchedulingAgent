@@ -1,0 +1,6 @@
+__pycache__/
+cleanenv/
+*.pyc
+credentials.json
+tokens/
+output.txt
