@@ -1,0 +1,27 @@
+reschedule the meeting with apptester923@gmail.com to friday on 11am
+create a meeting on saturday at 5pm with apptester923@gmail.com
+list the attendees on saturday's meeting
+reschedule the meeting on saturday with apptester923@gmail.com to 4pm
+i prefer my meetings in the morning
+cancel fridays meeting with apptester923@gmail.com
+recreate the meeting i just cancelled
+reschedule friday's meeting at my preferred time
+odel prefers meetings in the afternoon
+schedule a meeting with odel on friday at his preferred time
+yes, schedule a meeting at that time
+debate over mine and odells preferences for time slots and pick one with reason
+
+
+schedule a meeting on saturday at 2pm with arisachdeva1234@gmail.com and apptester923@gmail.com 
+reschedule the event on saturday at 2pm to 7pm
+
+cancel saturday's event at 2pm with apptester923@gmail.com and arisachdeva1234@gmail.com
+schedule a meeting on saturday at 2pm with arisachdeva1234@gmail.com and apptester923@gmail.com 
+cancel the event i just created
+set a preference for arisachdeva1234@gmail.com to afternoon
+Debate over these two preferences and schedule a meeting with them at my next conflict free slot
+schedule a meeting with these two at at time that satisfies both their preferences
+yes
+reshcedule it to arishacdeva's preferences
+list the attendees on tomorrow's meeting
+cancel that meeting
