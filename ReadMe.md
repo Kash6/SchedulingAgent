@@ -4,7 +4,7 @@ This project is a proof-of-concept (POC) for an AI-powered Scheduling Agent that
 Business Goal
 The Scheduling Agent autonomously:
 
-Collects user preferences and constraints via natural language queries (e.g., "schedule a meeting on Saturday at 2pm with arisachdeva1234@gmail.com and apptester923@gmail.com").
+Collects user preferences and constraints via natural language queries (e.g., "schedule a meeting on Saturday at 2pm with xyz@gmail.com and apptester923@gmail.com").
 Uses an LLM to reason over inputs, detect conflicts, and propose optimal time slots.
 Simulates personalized, context-aware interactions by maintaining memory of recent events.
 Coordinates multi-user scheduling by accessing calendars for user1 and user2.
