@@ -25,7 +25,7 @@ Error Handling: Provides clear feedback for invalid inputs (e.g., "Failed to par
 
 Outputs
 
-Meeting Creation: Creates events with Google Meet links, returning confirmation (e.g., "The meeting on Saturday at 2:00 PM with arisachdeva1234@gmail.com, apptester923@gmail.com has been created").
+Meeting Creation: Creates events with Google Meet links, returning confirmation (e.g., "The meeting on Saturday at 2:00 PM with apptester923@gmail.com has been created").
 Rescheduling/Cancellation: Updates or deletes events, confirming with event IDs and Meet links.
 Participant Listing: Returns attendee lists for specified events.
 Free Slots: Suggests conflict-free time slots when requested (e.g., "whenever I'm free").
