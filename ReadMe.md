@@ -40,18 +40,27 @@ Testing: Comprehensive logging and error messages for debugging and user guidanc
 Implementation
 
 Backend: Python with FastAPI, LangGraph, and ChatOpenAI for LLM-driven query processing.
+
 Integration: Google Calendar API for event management, OAuth2 for authentication.
-Tools: 
+
+Tools:
+
 create_meeting: Creates events with Google Meet links.
+
 reschedule_meeting: Updates event times by ID or attendee/time matching.
+
 cancel_meeting: Deletes events by ID or attendee/time criteria.
+
 list_participants: Retrieves attendee lists.
+
 find_conflict_free_slot: Suggests free slots.
+
 get_multi_user_events: Lists upcoming events.
+
 collect_time_preference: Summarizes preferences (e.g., "Prefers 9AM-12PM" for "morning").
 
-
 Frontend: Placeholder index.html (to be extended with React/Vue for UI).
+
 
 Bonus Area
 
@@ -62,11 +71,17 @@ Innovation: The agent supports multi-user coordination and context memory, with 
 Setup
 
 Clone the repository: git clone https://github.com/Kash6/SchedulingAgent
+
 Install dependencies: pip install -r requirements.txt
+
 Set up Google Calendar API credentials in credentials.json. Download it from https://console.cloud.google.com/auth/overview? in a new project and congigure oauth settings with new users.
+
 Configure environment variables in .env (e.g., OPENAI_API_KEY, GOOGLE_API).
+
 Run the server: uvicorn api_modified_new:fastapi_app --host 0.0.0.0 --port 8000
+
 Run frontend:  python -m http.server 3000
+
 Test queries via curl or a frontend (e.g., curl -X POST http://localhost:8000/query -d '{"query": "schedule a meeting on saturday at 2pm with odell"}').
 
 Future Enhancements
